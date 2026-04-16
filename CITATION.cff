@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+title: "CartoDEM Orthometric Converter"
+message: "If you use this repository, please cite the software and the referenced method article."
+type: software
+authors:
+  - family-names: "Kumar"
+    given-names: "Ashish"
+repository-code: "https://github.com/SunilAshish/cartodem-orthometric-converter"
+license: "MIT"
+abstract: "Python wrapper around GDAL gdalwarp to convert CartoDEM GeoTIFF DEMs from ellipsoidal to orthometric heights using geoid grids such as EGM96."
+references:
+  - type: article
+    title: "Convert between Orthometric and Ellipsoidal Elevations using GDAL"
+    authors:
+      - family-names: "Gandhi"
+        given-names: "Ujaval"
+    year: 2019
+    url: "https://spatialthoughts.com/2019/10/26/convert-between-orthometric-and-ellipsoidal-elevations-using-gdal/"
