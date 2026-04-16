@@ -101,6 +101,10 @@ gdalwarp -overwrite -r bilinear `
   -t_srs "+proj=longlat +datum=WGS84 +no_defs +geoidgrids=egm96_15.gtx" `
   input_dem.tif output_dem_orthometric.tif
 ```
+## Example Path based Script
+python convert_cartodem.py --input "F:\Work\Topography\Cartosat_Raw_Data\254559911\P5_PAN_CD_625_DEM.tif" --proj-network
+
+python convert_cartodem.py --input "G:\carto_data_cartosat" --recursive --proj-network
 
 ## Output naming
 
