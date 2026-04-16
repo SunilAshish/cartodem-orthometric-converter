@@ -102,6 +102,11 @@ gdalwarp -overwrite -r bilinear `
   input_dem.tif output_dem_orthometric.tif
 ```
 ## Example Path based Script
+Open terminal and set directory where your downloaded the .py file is saved.
+cd F:\cartodem-orthometric-converter
+
+Then run the below code by replacing you data path
+
 python convert_cartodem.py --input "F:\Work\Topography\Cartosat_Raw_Data\254559911\P5_PAN_CD_625_DEM.tif" --proj-network
 
 python convert_cartodem.py --input "G:\carto_data_cartosat" --recursive --proj-network
